@@ -159,6 +159,30 @@ const routes: Routes = [
     path: 'shanghaiinst',
     loadChildren: () => import('./shanghaiinst/shanghaiinst.module').then( m => m.ShanghaiinstPageModule)
   },
+  {
+    path: 'relyentuna',
+    loadChildren: () => import('./relyentuna/relyentuna.module').then( m => m.RelyentunaPageModule)
+  },
+  {
+    path: 'relyentunaingred',
+    loadChildren: () => import('./relyentunaingred/relyentunaingred.module').then( m => m.RelyentunaingredPageModule)
+  },
+  {
+    path: 'relyentunainst',
+    loadChildren: () => import('./relyentunainst/relyentunainst.module').then( m => m.RelyentunainstPageModule)
+  },
+  {
+    path: 'porkmonggocrispgalungong',
+    loadChildren: () => import('./porkmonggocrispgalungong/porkmonggocrispgalungong.module').then( m => m.PorkmonggocrispgalungongPageModule)
+  },
+  {
+    path: 'porkmonggocrispgalungongingred',
+    loadChildren: () => import('./porkmonggocrispgalungongingred/porkmonggocrispgalungongingred.module').then( m => m.PorkmonggocrispgalungongingredPageModule)
+  },
+  {
+    path: 'porkmonggocrispgalungonginst',
+    loadChildren: () => import('./porkmonggocrispgalungonginst/porkmonggocrispgalungonginst.module').then( m => m.PorkmonggocrispgalungonginstPageModule)
+  },
 ];
 
 @NgModule({
