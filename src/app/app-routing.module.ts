@@ -182,7 +182,79 @@ const routes: Routes = [
   {
     path: 'porkmonggocrispgalungonginst',
     loadChildren: () => import('./porkmonggocrispgalungonginst/porkmonggocrispgalungonginst.module').then( m => m.PorkmonggocrispgalungonginstPageModule)
+  },  {
+    path: 'kinamatisangmanok',
+    loadChildren: () => import('./kinamatisangmanok/kinamatisangmanok.module').then( m => m.KinamatisangmanokPageModule)
   },
+  {
+    path: 'kinamatisangmanokingred',
+    loadChildren: () => import('./kinamatisangmanokingred/kinamatisangmanokingred.module').then( m => m.KinamatisangmanokingredPageModule)
+  },
+  {
+    path: 'kinamatisangmanokinst',
+    loadChildren: () => import('./kinamatisangmanokinst/kinamatisangmanokinst.module').then( m => m.KinamatisangmanokinstPageModule)
+  },
+  {
+    path: 'pancit',
+    loadChildren: () => import('./pancit/pancit.module').then( m => m.PancitPageModule)
+  },
+  {
+    path: 'pancitingred',
+    loadChildren: () => import('./pancitingred/pancitingred.module').then( m => m.PancitingredPageModule)
+  },
+  {
+    path: 'pancitinst',
+    loadChildren: () => import('./pancitinst/pancitinst.module').then( m => m.PancitinstPageModule)
+  },
+  {
+    path: 'bistek',
+    loadChildren: () => import('./bistek/bistek.module').then( m => m.BistekPageModule)
+  },
+  {
+    path: 'bistekingred',
+    loadChildren: () => import('./bistekingred/bistekingred.module').then( m => m.BistekingredPageModule)
+  },
+  {
+    path: 'bistekinst',
+    loadChildren: () => import('./bistekinst/bistekinst.module').then( m => m.BistekinstPageModule)
+  },
+  {
+    path: 'sisig',
+    loadChildren: () => import('./sisig/sisig.module').then( m => m.SisigPageModule)
+  },
+  {
+    path: 'sisigingred',
+    loadChildren: () => import('./sisigingred/sisigingred.module').then( m => m.SisigingredPageModule)
+  },
+  {
+    path: 'sisiginst',
+    loadChildren: () => import('./sisiginst/sisiginst.module').then( m => m.SisiginstPageModule)
+  },
+  {
+    path: 'chickcurry',
+    loadChildren: () => import('./chickcurry/chickcurry.module').then( m => m.ChickcurryPageModule)
+  },
+  {
+    path: 'chickcurryingred',
+    loadChildren: () => import('./chickcurryingred/chickcurryingred.module').then( m => m.ChickcurryingredPageModule)
+  },
+  {
+    path: 'chickcurryinst',
+    loadChildren: () => import('./chickcurryinst/chickcurryinst.module').then( m => m.ChickcurryinstPageModule)
+  },
+  {
+    path: 'afritada',
+    loadChildren: () => import('./afritada/afritada.module').then( m => m.AfritadaPageModule)
+  },
+  {
+    path: 'afritadaingred',
+    loadChildren: () => import('./afritadaingred/afritadaingred.module').then( m => m.AfritadaingredPageModule)
+  },
+  {
+    path: 'afritadainst',
+    loadChildren: () => import('./afritadainst/afritadainst.module').then( m => m.AfritadainstPageModule)
+  },
+
 ];
 
 @NgModule({

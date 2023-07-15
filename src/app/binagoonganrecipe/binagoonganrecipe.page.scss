@@ -1,18 +1,13 @@
-ion-title{
-    text-align: center;
+ion-header{
+
+    ion-toolbar, ion-item{
+        --background: #df830a;
+        background: #df830a;
+        padding: 0 10px;
+        text-align: center;
     }
-    
-    ion-header{
-    
-   ion-toolbar, ion-item{
-    --background: #df830a;
-    background:#df830a;
-    padding: 0 10px;
-    text-align: center;
-   }
-    }
-    
-    ion-content.background{
-    --background: url(../../assets/icon/bgdish.png) 0 0/100% 100% no-repeat;
-    }
-    
+}
+
+ion-content.background{
+    background:url('../../assets/icon/bgdish.png');
+}
