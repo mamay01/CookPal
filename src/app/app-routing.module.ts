@@ -254,6 +254,10 @@ const routes: Routes = [
     path: 'afritadainst',
     loadChildren: () => import('./afritadainst/afritadainst.module').then( m => m.AfritadainstPageModule)
   },
+  {
+    path: 'dishes',
+    loadChildren: () => import('./dishes/dishes.module').then( m => m.DishesPageModule)
+  },
 
 ];
 
