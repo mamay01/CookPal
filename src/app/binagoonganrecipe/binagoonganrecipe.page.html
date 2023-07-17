@@ -7,14 +7,15 @@
   </ion-toolbar>
 </ion-header>
   
-<ion-content>
+<ion-content [fullscreen]="true" padding class="background" >
+
   <ion-card>
     <img alt="" src="../../assets/icon/pork.jpg" />
       <ion-button id="open-modal" fill="outline" expand="block" routerLink="/binagoonganingred">Ingredients</ion-button>
       <ion-button id="open-modal" fill="outline" expand="block" routerLink="/binagoonganinst">Instructions</ion-button>
-      
-  </ion-card><ion-button id="open-modal" fill="outline" expand="block" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=b8YDkAUs1t4">JUMP TO VIDEO</ion-button>
-  
+      <ion-button id="open-modal" fill="outline" expand="block" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=b8YDkAUs1t4">JUMP TO VIDEO</ion-button>
+  </ion-card>
+
   <ion-card>
       <ion-card-content><b>Nutrition Information Calories:</b> 1365kcal (68%) 
         Carbohydrates: 13g (4%) Protein: 31g (62%) Fat: 133g (205%)
@@ -22,4 +23,5 @@
         Cholesterol: 277mg (92%) Sodium: 436mg (18%) Potassium: 764mg (22%) Fiber: 6g (24%) Sugar: 5g (6%) 
         Vitamin A: 325IU (7%) Vitamin C: 7mg (8%) Calcium: 179mg (18%) Iron: 5mg (28%)</ion-card-content>
   </ion-card>
+
 </ion-content>
